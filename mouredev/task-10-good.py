@@ -1,5 +1,5 @@
 # =========================================================
-# 🧱 BASE: EMPLOYEE
+#  BASE: EMPLOYEE
 # =========================================================
 
 class Employee:
@@ -12,7 +12,7 @@ class Employee:
 
 
 # =========================================================
-# 🧠 LIST MANAGER (REUTILIZABLE)
+#  LIST MANAGER (REUTILIZABLE)
 # =========================================================
 
 class ListManager(Employee):
@@ -51,7 +51,7 @@ class ListManager(Employee):
 
 
 # =========================================================
-# 🧠 MANAGER
+#  MANAGER
 # =========================================================
 
 class Manager(ListManager):
@@ -75,7 +75,7 @@ class Manager(ListManager):
 
 
 # =========================================================
-# 🧑‍💼 PROJECT MANAGER
+#  PROJECT MANAGER
 # =========================================================
 
 class ProjectManager(ListManager):
@@ -98,7 +98,7 @@ class ProjectManager(ListManager):
 
 
 # =========================================================
-# 👨‍💻 PROGRAMMER
+# PROGRAMMER
 # =========================================================
 
 class Programmer(ListManager):
